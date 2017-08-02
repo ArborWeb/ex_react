@@ -3,7 +3,9 @@ import React, {Component} from 'react'
 export default class ClassComponent extends Component {
 	constructor(props) {
 		super(props)
-		this.state = { value: props.initValue }
+		this.state = {
+			value: props.initValue
+			}
 	}
 
 	sum(delta) {
